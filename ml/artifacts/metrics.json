@@ -1,0 +1,43 @@
+{
+  "accuracy": 0.9108,
+  "precision": 0.8351,
+  "recall": 0.8929,
+  "f1_score": 0.8630,
+  "auc_roc": 0.9734,
+  "train_samples": 64000,
+  "test_samples": 16000,
+  "features": [
+    "Crime_Type_Encoded",
+    "Area_Encoded",
+    "Latitude",
+    "Longitude",
+    "Crime_Year",
+    "Hour",
+    "Day_Of_Week",
+    "Month",
+    "Crime_Severity",
+    "Recent_Weight",
+    "Trend_Score"
+  ],
+  "selected_model": "XGBoost",
+  "feature_columns": [
+    "Crime_Type_Encoded",
+    "Area_Encoded",
+    "Latitude",
+    "Longitude",
+    "Crime_Year",
+    "Hour",
+    "Day_Of_Week",
+    "Month",
+    "Crime_Severity",
+    "Recent_Weight",
+    "Trend_Score"
+  ],
+  "has_risk_regressor": true,
+  "timestamp": "2026-06-05 12:18:00",
+  "version": "v1",
+  "risk_regressor": {
+    "mae": 4.022930766319372,
+    "r2": 0.8910107807634408
+  }
+}
